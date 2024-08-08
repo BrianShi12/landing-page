@@ -1,0 +1,101 @@
+* {
+    font-family: Roboto;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.background {
+    background-color: #1F2937;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    height: 75px;
+}
+
+.navbar {
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+    width: 75%;
+}
+
+.navbar .left {
+    flex: 2;
+    font-size: 24px;
+    font-weight: 900;
+    color: #F9FAF8;
+}
+
+.navbar .right {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.background1 {
+    display: flex;
+    width: 100%;
+    background-color: #1F2937;
+    height: 500px;
+    justify-content: center;
+    align-items: center;
+}
+
+.section1 {
+    display: flex;
+    width: 75%;
+    height: 60%;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.section1 .left {
+    flex-direction: column;
+    display: flex;
+    flex: 1;
+    height:  75%;
+    justify-content: center;
+}
+
+
+.section1 .right {
+    display: flex;
+    flex: 1; 
+    height: 75%;
+    background-color: grey;
+    justify-content: center;
+    align-items: center;
+}
+
+.section1 .left .s1header {
+    flex: 2;
+    font-size: 48px;
+    font-weight: 900;
+    color: #F9FAF8;
+}
+
+.section1 .left .s1text {
+    flex: 2;
+    font-size: 18px;
+    color: #b0b2b6;
+}
+
+
+.section1 .left .signup {
+    flex: 1;
+    background-color: #3882F6;
+    color:#F9FAF8;
+    width: 25%;
+    border: 0;
+    border-radius: 10px;
+}
+
+
+.section2 {
+    height: 400px;
+}
